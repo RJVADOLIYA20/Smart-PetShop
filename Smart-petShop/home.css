@@ -1,0 +1,98 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4bcbc;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    padding: 0 20px;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    height: 50px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #f66;
+  }
+  
+  /* Style the main content */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #f66;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #ff9999;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #331919;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
